@@ -1,6 +1,6 @@
 import { Fragment, FC } from 'react';
 
-import MainNavigation from './MainNavigation';
+import MainNavigation from '../../containers/Layout/MainNavigation/MainNavigation';
 
 const Layout : FC = (props) => {
   return (

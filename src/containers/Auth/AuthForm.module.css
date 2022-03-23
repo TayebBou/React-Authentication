@@ -70,3 +70,11 @@
   background-color: transparent;
   color: #dedede;
 }
+
+.p-progress-spinner {
+  position: relative;
+  margin: 0 auto;
+  width: 10vh !important;
+  height: 100%;
+  display: inline-block;
+}

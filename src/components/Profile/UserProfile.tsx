@@ -1,4 +1,4 @@
-import ProfileForm from './ProfileForm';
+import ProfileForm from '../../containers/Profile/ProfileForm';
 import classes from './UserProfile.module.css';
 
 const UserProfile = () => {
