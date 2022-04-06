@@ -1,6 +1,40 @@
-# Getting Started with Create React App
+# React-authentication
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LIVE HERE : https://react-authentication-11.web.app/auth
+
+React-authentication is a react web authentication application using firebase authentication api and authentication tokens approach with React JS / TypeScript / React router dom V6 / Redux Toolkit / CRA / Cypress / Prime React / CSS / Axios / Firebase / ESLint.
+
+For the deployement I built the project with the `yarn build` commande and I deployed with Firebase, here the documentation for hosting and deploying your app in Firebase : https://firebase.google.com/docs/hosting/quickstart.
+
+![image](https://user-images.githubusercontent.com/52780772/161967255-e10f5c4e-4b5e-4a57-b3cf-0cd1a899caf5.png)
+
+## How to run
+
+### Install Node.js plateform
+
+( Choose the LTS version recommanded for most users )
+
+In the project directory, you can run:
+
+### `npm install --global yarn`
+
+to install the yarn package, it's an alternative of npm.
+
+### `yarn install`
+
+To install all dependencies.
+
+### `yarn start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### You can start using the application with all its features :)
+
+![image](https://user-images.githubusercontent.com/52780772/161967489-ccd6a0ad-c8b3-4ebf-8947-e6a8f7b6d9b4.png)
 
 ## Available Scripts
 
@@ -19,7 +53,15 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn run cypress open`
+
+To Launche the cypress desktop app built with Electron but before you need to have the app started with "yarn start" in an other terminal.
+
 ### `yarn build`
+
+Before build you need to install **cross-env** dependency : 
+
+### `yarn global add cross-env`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
