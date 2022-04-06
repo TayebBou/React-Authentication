@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  color: #484d89;
+}
+
+.p-progress-spinner {
+  width: 10vh !important;
+  height: 10vh !important;
+}
+
+.p-progress-spinner-circle {
+  stroke: #ffffff !important;
+}
