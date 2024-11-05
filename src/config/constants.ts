@@ -1,1 +1,2 @@
-export const API_KEY = "AIzaSyCaGzliHh4Z2UkxqedXvv11SURQQ1iPCR0";
+export const BASE_URL =
+  "https://2diigmbraf.execute-api.eu-west-3.amazonaws.com";
